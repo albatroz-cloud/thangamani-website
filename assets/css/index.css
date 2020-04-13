@@ -52,16 +52,17 @@ html {
     width: 50px;
 }
 
+#contact-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contact-heading {
+    padding-top: 20px;
     text-align: center;
     color: white;
     font-size: 25px;
     font-family: 'Cormorant Garamond', serif;
-}
-
-#contact-grid {
-    display: flex;
-    justify-content: space-between;
 }
 
 .contact-text {
