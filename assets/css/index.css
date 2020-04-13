@@ -41,8 +41,14 @@ html {
     font-family: monospace;
 }
 
-#conrow {
-    background-color: #BE7D16;
+#contact {
+    background-color: black;
+    width: 100%;
+}
+
+#contact-img {
+    height: 4%;
+    width: 4%;
 }
 
 @media (max-width: 414px) {
