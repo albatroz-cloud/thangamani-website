@@ -10,7 +10,8 @@ html body {
 html {
     scroll-behavior: smooth;
 }
-header{
+
+header {
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -84,7 +85,7 @@ header{
     font-family: monospace;
 }
 
-.imgg{
+.imgg {
     background: transparent;
 }
 
@@ -146,9 +147,26 @@ header{
 
 /* construction  */
 
-.container2 {    display: flex;    overflow-x: auto;}
-.container2 img {    margin-right: 15px;}
-.container2::-webkit-scrollbar {    display: none;}
-#gallery {   display: flex;   align-items: center;   height: 40vh;}
-.container2 img { width: 250px; height: 200px;}
+.container2 {
+    display: flex;
+    overflow-x: auto;
+}
 
+.container2 img {
+    margin-right: 15px;
+}
+
+.container2::-webkit-scrollbar {
+    display: none;
+}
+
+#gallery {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+}
+
+.container2 img {
+    width: 250px;
+    height: 200px;
+}
