@@ -7,39 +7,19 @@ html body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 86%;
     height: auto;
 }
 
 .text {
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 50px;
     font-family: 'Cormorant Garamond', serif;
 }
 
-.topnav {
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
-    background-color: #333;
-    border-radius: 20px;
-    align-content: center;
-    width: 60%;
+@media (max-width: 414px) {
+    .text{
+        font-size: 25px;
+    }
 }
-
-.topnav a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: burlywood;
-    color: black;
-}
-
-@media (max-width: 375px) {}
