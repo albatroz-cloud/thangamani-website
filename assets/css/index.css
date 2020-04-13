@@ -48,8 +48,8 @@ html {
 }
 
 #contact-img {
-    height: 4%;
-    width: 4%;
+    height: 50px;
+    width: 50px;
 }
 
 .contact-heading {
@@ -59,8 +59,13 @@ html {
     font-family: 'Cormorant Garamond', serif;
 }
 
+#contact-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contact-text {
-    text-align: center;
+    text-align: left;
     color: antiquewhite;
     font-size: 13px;
     font-family: monospace;
@@ -75,6 +80,9 @@ html {
     }
     .contact-text {
         text-align: left;
+    }
+    #contact-grid {
+        display: inline;
     }
     #contact-img {
         height: 8%;
