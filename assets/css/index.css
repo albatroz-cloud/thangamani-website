@@ -10,6 +10,10 @@ html body {
 html {
     scroll-behavior: smooth;
 }
+header{
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 .responsive {
     margin-top: 10%;
@@ -37,8 +41,16 @@ html {
 .text-3 {
     text-align: center;
     color: antiquewhite;
-    font-size: 13px;
-    font-family: monospace;
+    font-size: 16px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+.text-4 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 #contact {
@@ -72,6 +84,10 @@ html {
     font-family: monospace;
 }
 
+.imgg{
+    background: transparent;
+}
+
 @media (max-width: 800px) {
     .text {
         font-size: 25px;
@@ -90,3 +106,49 @@ html {
         width: 8%;
     }
 }
+
+/*  about  */
+
+.heading {
+    text-align: center;
+    color: #BE7D16;
+    font-size: 70px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+
+#about-text {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif
+}
+
+#service-text {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif
+}
+
+.responsive {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+
+/* construction  */
+
+.container2 {    display: flex;    overflow-x: auto;}
+.container2 img {    margin-right: 15px;}
+.container2::-webkit-scrollbar {    display: none;}
+#gallery {   display: flex;   align-items: center;   height: 40vh;}
+.container2 img { width: 250px; height: 200px;}
+
