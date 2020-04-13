@@ -44,6 +44,7 @@ html {
 #contact {
     background-color: black;
     width: 100%;
+    text-align: left;
 }
 
 #contact-img {
@@ -51,8 +52,32 @@ html {
     width: 4%;
 }
 
-@media (max-width: 414px) {
+.contact-heading {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.contact-text {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 13px;
+    font-family: monospace;
+}
+
+@media (max-width: 800px) {
     .text {
         font-size: 25px;
+    }
+    .contact-heading {
+        text-align: left;
+    }
+    .contact-text {
+        text-align: left;
+    }
+    #contact-img {
+        height: 8%;
+        width: 8%;
     }
 }
