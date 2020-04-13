@@ -1,5 +1,14 @@
 html body {
+    background-image: url("../img/about.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .responsive {
@@ -18,8 +27,26 @@ html body {
     font-family: 'Cormorant Garamond', serif;
 }
 
+.text-2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.text-3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 13px;
+    font-family: monospace;
+}
+
+#conrow {
+    background-color: #BE7D16;
+}
+
 @media (max-width: 414px) {
-    .text{
+    .text {
         font-size: 25px;
     }
 }
