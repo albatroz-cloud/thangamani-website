@@ -181,7 +181,6 @@ header {
 .container2 {
     display: flex;
     overflow-x: auto;
-    justify-content: center;
 }
 
 .container2 img {
