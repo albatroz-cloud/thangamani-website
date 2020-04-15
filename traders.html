@@ -63,6 +63,15 @@
     </div>
     <br>
     <br>
+
+    <div id="load" class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+      <script>
+            setInterval(() => { document.getElementById("load").style.opacity = '0.0' }, 500 );
+            setTimeout(() => { document.getElementById("load").remove() }, 2000 );
+      </script>
+      
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();

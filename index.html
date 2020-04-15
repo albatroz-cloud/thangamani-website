@@ -10,6 +10,9 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/animate.css">
     <link rel="stylesheet" href="/assets/css/unpkg.css" />
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Thangamani</title>
 </head>
 
@@ -133,6 +136,26 @@
         </div>
         <br><br>
     </div>
+
+    
+    <!-- <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+      <script>
+
+        $(window).on("load",function() {            
+            window.setInterval($(".loader-wrapper").css("opacity","0%"), 1000 );
+            window.setInterval($(".loader-wrapper").remove(), 5000 );
+        });
+      </script> -->
+      <div id="load" class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+      <script>
+            setInterval(() => { document.getElementById("load").style.opacity = '0.0' }, 500 );
+            setTimeout(() => { document.getElementById("load").remove() }, 2000 );
+      </script>
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
