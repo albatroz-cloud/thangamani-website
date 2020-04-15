@@ -137,6 +137,12 @@ header {
         height: 8%;
         width: 8%;
     }
+    #gallery {
+        display: inline-block;
+    }
+    .container2 {
+        display: inline-block;
+    }
 }
 
 /*  about  */
@@ -181,6 +187,7 @@ header {
 .container2 {
     display: flex;
     overflow-x: auto;
+    justify-content: center;
 }
 
 .container2 img {
