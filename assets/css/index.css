@@ -1,10 +1,41 @@
-html body {
+.bg-index {
     background-image: url("../img/about.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: black;
+}
+
+.bg-about {
+    background-image: url("../img/about.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-cons {
+    background-image: url("../img/construction.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-water {
+    background-image: url("../img/water.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-trade {
+    background-image: url("../img/global.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 html {
@@ -150,6 +181,7 @@ header {
 .container2 {
     display: flex;
     overflow-x: auto;
+    justify-content: center;
 }
 
 .container2 img {
