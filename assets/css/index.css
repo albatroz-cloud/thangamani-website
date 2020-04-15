@@ -162,6 +162,8 @@ header {
 .container2 {
     display: flex;
     overflow-x: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .container2 img {
@@ -170,12 +172,6 @@ header {
 
 .container2::-webkit-scrollbar {
     display: none;
-}
-
-#gallery {
-    display: flex;
-    align-items: center;
-    height: 40vh;
 }
 
 .container2 img {
